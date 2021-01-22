@@ -4,6 +4,7 @@ package com.company.behavioral.mediator;
  * @author koval
  */
 public class ConcreteCollege1 extends Colleague {
+
     public ConcreteCollege1(Mediator mediator) {
         super(mediator);
     }

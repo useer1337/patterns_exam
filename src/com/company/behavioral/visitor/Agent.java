@@ -2,9 +2,9 @@ package com.company.behavioral.visitor;
 
 public interface Agent {
 
-    void peopleInsurance(PeopleClient client);
+    void peopleInsurance(Client client);
 
-    void companyInsurance(CompanyClient client);
+    void companyInsurance(Client client);
 
 
 }

@@ -10,14 +10,17 @@ public class Main {
         CareTaker careTaker = new CareTaker(redactor);
 
         careTaker.doSomething("Hello world!");
+
+
         careTaker.doSomething("How are you!");
-        System.out.println(careTaker.look());
+
+        System.out.println(redactor.getState());
 
         careTaker.undo();
-        System.out.println(careTaker.look());
+        System.out.println(redactor.getState());
 
         careTaker.undo();
-        System.out.println(careTaker.look());
+        System.out.println(redactor.getState());
 
     }
 

@@ -29,9 +29,6 @@ public class CareTaker {
         textRedactor.restore(mementoStack.pop());
     }
 
-    public String look() {
-        return textRedactor.getState();
-    }
 
 
 }

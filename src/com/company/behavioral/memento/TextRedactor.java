@@ -16,6 +16,7 @@ public class TextRedactor {
     }
 
     public void restore(Memento memento){
+
         state = memento.state;
     }
 
