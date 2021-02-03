@@ -6,6 +6,7 @@ package com.company.behavioral.state;
 public abstract class State {
 
     private String state1;
+    private String state2;
 
 
     protected String description;
