@@ -5,7 +5,9 @@ package com.company.behavioral.state;
  */
 public abstract class State {
 
-    // hello worlld!!!!
+    private String state1;
+
+
     protected String description;
     private Task task;
 
