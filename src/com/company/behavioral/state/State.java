@@ -7,6 +7,8 @@ public abstract class State {
 
     private String state1;
     private String state2;
+    private String state3;
+    private String state4;
 
 
     protected String description;
